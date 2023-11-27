@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-alignment">
+        <div class="sidebar-container-circle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="logo-container">
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+
+      <div class="middle-container">
+        <!-- <div class="yt-search"></div> -->
+        <form action="">
+          <input
+            type="text"
+            name=""
+            class="yt-search"
+            placeholder="&nbsp;&nbsp;Search"
+          />
+        </form>
+        <div class="search-logo-container">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="voice-search-logo-container">
+          <i class="fa-solid fa-microphone"></i>
+        </div>
+      </div>
+
+      <div class="right-alignment">
+        <div class="video-logo-container">
+          <i class="fa-solid fa-video"></i>
+        </div>
+        <div class="notification-logo-container">
+          <i class="fa-regular fa-bell"></i>
+        </div>
+        <div class="id-container">
+          <img
+            src="images/ayush_gym_selfie.jpeg"
+            alt="Well, This is unexpected"
+            height="32px"
+            width="32px"
+          />
+        </div>
+      </div>
+    </header>
+
+    <div id="nav">
+      <aside class="scrollable">
+        <ul class="each-item">
+          <li class="scrollable-item home">
+            <span class="item-logo-container">
+              <i class="fa-solid fa-house"></i>
+            </span>
+            <p>Home</p>
+          </li>
+          <li class="scrollable-item">
+            <span class="item-logo-container">
+              <i class="fa-brands fa-steam-symbol"></i>
+            </span>
+            <p>Shorts</p>
+          </li>
+          <li class="scrollable-item gap-item">
+            <span class="item-logo-container">
+              <i class="fa-solid fa-photo-film"></i>
+            </span>
+            <p>Subscriptions</p>
+          </li>
+          <div class="horizontal-line"></div>
+          <li class="scrollable-item">
+            <span class="item-logo-container">
+              <i class="fa-solid fa-tv"></i>
+            </span>
+            <p>Library</p>
+          </li>
+          <li class="scrollable-item">
+            <span class="item-logo-container">
+              <i class="fa-solid fa-clock-rotate-left"></i>
+            </span>
+            <p>History</p>
+          </li>
+          <li class="scrollable-item">
+            <span class="item-logo-container">
+              <i class="fa-regular fa-square-caret-right"></i>
+            </span>
+            <p>Your videos</p>
+          </li>
+          <li class="scrollable-item">
+            <span class="item-logo-container">
+              <i class="fa-regular fa-clock"></i>
+            </span>
+            <p>Watch later</p>
+          </li>
+          <li class="scrollable-item">
+            <span class="item-logo-container">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </span>
+            <p>Liked videos</p>
+          </li>
+        </ul>
+      </aside>
+
+      <div id="hero">
+        <div class="tag-container">
+          <span class="tag first-tag">All</span>
+          <span class="tag">Mixes</span>
+          <span class="tag">Music</span>
+          <span class="tag">Computer Science</span>
+          <span class="tag">Web Development</span>
+          <span class="tag">Live</span>
+          <span class="tag">Computer Programming</span>
+          <span class="tag">Sales</span>
+          <span class="tag">Chill-out Music</span>
+          <span class="tag last-tag">Lofi</span>
+          <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
+        </div>
+
+        <main class="main">
+          <div class="card">
+            <div class="video-image-container">
+              <img
+                src="images/maxresdefault (1).jpg"
+                alt="Unexpected.....sob....sob...."
+                class="video-image"
+              />
+            </div>
+            <div class="card-flex-down">
+              <span class="channel-logo-container">
+                <img
+                  src="images/wallpaperflare.com_wallpaper (1).jpg"
+                  alt="nothing"
+                  class="channel-logo"
+                  height="36px"
+                  width="36px"
+                />
+              </span>
+              <span class="topic-name-views">
+                <p class="topic">
+                  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                  consectetur
+                </p>
+                <p class="name">momono lofi</p>
+                <p class="views">58k &#x2022; 19 hours ago</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="video-image-container">
+              <img
+                src="images/maxresdefault (2).jpg"
+                alt="Unexpected.....sob....sob...."
+                class="video-image"
+              />
+            </div>
+            <div class="card-flex-down">
+              <span class="channel-logo-container">
+                <img
+                  src="images/wallpaperflare.com_wallpaper (3).jpg"
+                  alt="nothing"
+                  class="channel-logo"
+                  height="36px"
+                  width="36px"
+                />
+              </span>
+              <span class="topic-name-views">
+                <p class="topic">Lorem ipsum dolor sit amet.</p>
+                <p class="name">momono lofi</p>
+                <p class="views">58k &#x2022; 19 hours ago</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="video-image-container">
+              <img
+                src="images/wallpaperflare.com_wallpaper (1).jpg"
+                alt="Unexpected.....sob....sob...."
+                class="video-image"
+              />
+            </div>
+            <div class="card-flex-down">
+              <span class="channel-logo-container">
+                <img
+                  src="images/WPF_ghost_of_tsushima.jpg"
+                  alt="nothing"
+                  class="channel-logo"
+                  height="36px"
+                  width="36px"
+                />
+              </span>
+              <span class="topic-name-views">
+                <p class="topic">Lorem ipsum dolor sit amet.</p>
+                <p class="name">momono lofi</p>
+                <p class="views">58k &#x2022; 19 hours ago</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="video-image-container">
+              <img
+                src="images/wallpaperflare.com_wallpaper (3).jpg"
+                alt="Unexpected.....sob....sob...."
+                class="video-image"
+              />
+            </div>
+            <div class="card-flex-down">
+              <span class="channel-logo-container">
+                <img
+                  src="images/maxresdefault.jpg"
+                  alt="nothing"
+                  class="channel-logo"
+                  height="36px"
+                  width="36px"
+                />
+              </span>
+              <span class="topic-name-views">
+                <p class="topic">Lorem ipsum dolor sit amet.</p>
+                <p class="name">momono lofi</p>
+                <p class="views">58k &#x2022; 19 hours ago</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="video-image-container">
+              <img
+                src="images/wallpaperflare.com_wallpaper (4).jpg"
+                alt="Unexpected.....sob....sob...."
+                class="video-image"
+              />
+            </div>
+            <div class="card-flex-down">
+              <span class="channel-logo-container">
+                <img
+                  src="images/maxresdefault (1).jpg"
+                  alt="nothing"
+                  class="channel-logo"
+                  height="36px"
+                  width="36px"
+                />
+              </span>
+              <span class="topic-name-views">
+                <p class="topic">Lorem ipsum dolor sit amet.</p>
+                <p class="name">momono lofi</p>
+                <p class="views">58k &#x2022; 19 hours ago</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="video-image-container">
+              <img
+                src="images/WPF_ghost_of_tsushima.jpg"
+                alt="Unexpected.....sob....sob...."
+                class="video-image"
+              />
+            </div>
+            <div class="card-flex-down">
+              <span class="channel-logo-container">
+                <img
+                  src="images/wallpaperflare.com_wallpaper (1).jpg"
+                  alt="nothing"
+                  class="channel-logo"
+                  height="36px"
+                  width="36px"
+                />
+              </span>
+              <span class="topic-name-views">
+                <p class="topic">Lorem ipsum dolor sit amet.</p>
+                <p class="name">momono lofi</p>
+                <p class="views">58k &#x2022; 19 hours ago</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="video-image-container">
+              <img
+                src="images/wallpaperflare.com_wallpaper (2).jpg"
+                alt="Unexpected.....sob....sob...."
+                class="video-image"
+              />
+            </div>
+            <div class="card-flex-down">
+              <span class="channel-logo-container">
+                <img
+                  src="images/wallpaperflare.com_wallpaper.jpg"
+                  alt="nothing"
+                  class="channel-logo"
+                  height="36px"
+                  width="36px"
+                />
+              </span>
+              <span class="topic-name-views">
+                <p class="topic">Lorem ipsum dolor sit amet.</p>
+                <p class="name">momono lofi</p>
+                <p class="views">58k &#x2022; 19 hours ago</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="video-image-container">
+              <img
+                src="images/wallpaperflare.com_wallpaper.jpg"
+                alt="Unexpected.....sob....sob...."
+                class="video-image"
+              />
+            </div>
+            <div class="card-flex-down">
+              <span class="channel-logo-container">
+                <img
+                  src="images/WPF_ghost_of_tsushima(2).jpg"
+                  alt="nothing"
+                  class="channel-logo"
+                  height="36px"
+                  width="36px"
+                />
+              </span>
+              <span class="topic-name-views">
+                <p class="topic">Lorem ipsum dolor sit amet.</p>
+                <p class="name">momono lofi</p>
+                <p class="views">58k &#x2022; 19 hours ago</p>
+              </span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="video-image-container">
+              <img
+                src="images/WPF_ghost_of_tsushima(2).jpg"
+                alt="Unexpected.....sob....sob...."
+                class="video-image"
+              />
+            </div>
+            <div class="card-flex-down">
+              <span class="channel-logo-container">
+                <img
+                  src="images/maxresdefault (1).jpg"
+                  alt="nothing"
+                  class="channel-logo"
+                  height="36px"
+                  width="36px"
+                />
+              </span>
+              <span class="topic-name-views">
+                <p class="topic">Lorem ipsum dolor sit amet.</p>
+                <p class="name">momono lofi</p>
+                <p class="views">58k &#x2022; 19 hours ago</p>
+              </span>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
